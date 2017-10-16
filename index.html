@@ -198,7 +198,7 @@
 	<!--作品-->
 	<template id="s_pinpai">
 		<ul class="s_repeat-con">
-			<li v-for="(val,key) in shu[0]">
+			<li v-for="(val,key) in shu">
 				<img :src="val.src" /><br>
 				<p class="s_h2">{{ val.text }}</p>
 				<p>{{ val.text2 }}</p>
@@ -209,7 +209,7 @@
 	<!--履历-->
 	<template id="s_pingao">
 		<ul class="s_repeat-con-1">
-			<li v-for="(val,key) in shu[1]">
+			<li v-for="(val,key) in shu">
 				<img :src="val.src" /><br>
 				<p class="s_p">{{ val.text }}</p><span>{{ val.text2 }}</span>
 			</li>
@@ -218,7 +218,7 @@
 	<!--自荐书-->
 	<template id="s_guanyu">
 		<ul class="s_repeat-con-2">
-			<li v-for="(val,key) in shu[2]">
+			<li v-for="(val,key) in shu">
 				<p class="s_h2">{{ val.name }}</p>
 				<p class="s_text">{{ val.text }}<br>{{ val.text01 }}<br>&nbsp;&nbsp;&nbsp;&nbsp;{{ val.text02 }}{{ val.text03 }}{{ val.text04 }}<br>&nbsp;&nbsp;&nbsp;&nbsp;{{ val.text05 }}{{ val.text06 }}{{ val.text07 }}{{ val.text08 }}{{ val.text09 }}<br>&nbsp;&nbsp;&nbsp;&nbsp;{{ val.text10 }}{{ val.text11 }}{{ val.text12 }}<br>&nbsp;&nbsp;&nbsp;&nbsp;{{ val.text13 }}{{ val.text14 }}{{ val.text15 }}{{ val.text16 }}</p>
 				<p class="s_text">{{ val.text2 }}<br>{{ val.text3 }}</p>
