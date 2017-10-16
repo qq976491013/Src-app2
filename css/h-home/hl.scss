@@ -1,0 +1,178 @@
+@charset "utf-8";
+.content {
+    background: #fff !important;
+}
+
+.h-banner {
+    width: 100%;
+    a {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.h-1 {
+    width: 100%;
+    height: 0.55rem;
+    position: relative;
+    top: -0.1rem;
+}
+
+.h-tab {
+    width: 100%;
+    height: 0.55rem;
+    line-height: 0.55rem;
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 3;
+    li {
+        flex: 1;
+        text-align: center;
+        border-bottom: 0.01rem solid #FF7800;
+        a {
+            display: block;
+            width: 100%;
+            color: #000;
+            font-size: 0.2rem;
+            text-decoration: none;
+            animation: h-head 0.2s linear;
+        }
+        .router-link-active {
+            background: #FF7800;
+            color: #fff;
+            animation: h-show 0.2s linear;
+        }
+        .h-l {
+        border-top-right-radius: 0.05rem;
+        }
+        .h-r {
+            border-top-left-radius: 0.05rem;
+        }
+    }
+}
+
+
+@-webkit-keyframes h-show{
+    0%{
+        background: white;
+        color:#292929;
+        opacity: .4;
+    }
+    100%{
+        background: #FF7800;
+        color:white;
+        opacity: 1;
+    }
+
+}
+@-webkit-keyframes h-head{
+    0%{
+        background: #FF7800;
+        color:white;
+        opacity: .4;
+    }
+    100%{
+        background: white;
+        color:#292929;
+        opacity: 1;
+    }
+
+}
+
+.h-list {
+    width: 100%;
+    //  margin-top: 0.55rem;
+    .v-0 {
+        border-bottom: 0.01rem solid #eee;
+        margin:0.1rem 0;
+        >a {
+            width: 100%;
+            height: 2rem;
+            text-decoration: none;
+            display: block;
+            position: relative;
+            >div:nth-of-type(1) {
+                width: 100%;
+                position: absolute;
+                >img {
+                    width: 100%;
+                    height:2rem;
+                }
+            }
+            >div:nth-of-type(2) {
+                text-align: center;
+                width: 100%;
+                position: absolute;
+                padding-top:0.7rem;
+                z-index: 2;
+                p {
+                    &:nth-child(1) {
+                        font-size: 0.2rem;
+                        color: #e26d22;
+                    }
+                    &:nth-child(2) {
+                        font-size: 0.18rem !important;
+                        padding-top: 0.05rem;
+                        color: #59d3e8;
+                    }
+                    &:nth-child(3) {
+                        width: 100%;
+                        height: 0.45rem;
+                        font-size: 0.16rem;
+                        margin-top: 0.3rem;
+                        text-align: center;
+                        line-height: 0.45rem;
+                        color: #fff;
+                        background: rgba(30,30,30,0.5);
+                    }
+                }
+            }
+        }
+    }
+    .v-1 {
+        border-bottom: 0.01rem solid #eee;
+        padding: 0.3rem 0 0.25rem 0;
+        >a {
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            display: flex;
+            >div:nth-of-type(1) {
+                width: 50%;
+                padding: 0.16rem;
+                >img {
+                    width: 100%;
+                }
+            }
+            >div:nth-of-type(2) {
+                text-align: center;
+                width: 50%;
+                padding: 0.15rem;
+                p {
+                    &:nth-child(1) {
+                        font-size: 0.2rem;
+                        color: #000;
+                    }
+                    &:nth-child(2) {
+                        font-size: 0.18rem !important;
+                        padding-top: 0.05rem;
+                        color: #FF7800;
+                    }
+                    &:nth-child(3) {
+                        width: 1.1rem;
+                        padding: 0.08rem 0;
+                        font-size: 0.16rem;
+                        color: #fff;
+                        background: #FF7800;
+                        border-radius: 0.05rem;
+                        margin: 0.2rem auto;
+                    }
+                }
+            }
+        }
+    }
+}

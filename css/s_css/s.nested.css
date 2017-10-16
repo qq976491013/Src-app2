@@ -1,0 +1,240 @@
+.s_im {
+  width: 100%; }
+  .s_im img {
+    width: 100%; }
+
+.s_con-nav {
+  width: 100%;
+  height: 0.55rem;
+  position: absolute;
+  top: 0;
+  display: flex;
+  background: white;
+  justify-content: space-around; }
+  .s_con-nav li {
+    width: 33.33%;
+    height: 0.55rem; }
+    .s_con-nav li a {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      font-size: 0.2rem;
+      border-bottom: 1px solid #FF7800;
+      text-align: center;
+      line-height: 0.55rem;
+      color: #292929;
+      text-decoration: none;
+      animation: s-head 0.2s linear; }
+  .s_con-nav .router-link-exact-active {
+    background: #FF7800;
+    color: white;
+    animation: s-show 0.2s linear; }
+  .s_con-nav .s_border-raide-right {
+    border-top-right-radius: 0.05rem; }
+  .s_con-nav .s_border-raide-both {
+    border-top-right-radius: 0.05rem;
+    border-top-left-radius: 0.05rem; }
+  .s_con-nav .s_border-raide-left {
+    border-top-left-radius: 0.05rem; }
+
+@-webkit-keyframes s-show {
+  0% {
+    background: white;
+    color: #292929;
+    opacity: .4; }
+  100% {
+    background: #FF7800;
+    color: white;
+    opacity: 1; } }
+
+@-webkit-keyframes s-head {
+  0% {
+    background: #FF7800;
+    color: white;
+    opacity: .4; }
+  100% {
+    background: white;
+    color: #292929;
+    opacity: 1; } }
+
+.s_con {
+  width: 100%; }
+  .s_con .s_repeat-con {
+    width: 100%;
+    margin-top: -0.1rem; }
+    .s_con .s_repeat-con li {
+      width: 100%;
+      overflow: hidden;
+      padding-top: 0.2rem;
+      padding-bottom: 0.2rem;
+      border-bottom: 0.03rem #F0F0F0 solid;
+      background: white; }
+      .s_con .s_repeat-con li img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        height: 80%; }
+      .s_con .s_repeat-con li .s_h2 {
+        width: 95%;
+        margin: 0.05rem auto;
+        font-size: 0.18rem;
+        color: #1A1A1A; }
+      .s_con .s_repeat-con li p {
+        width: 95%;
+        margin: 0 auto;
+        font-size: 0.15rem;
+        color: #949494; }
+      .s_con .s_repeat-con li span {
+        width: 50%;
+        text-align: right;
+        padding-right: 0.1rem;
+        padding-top: 0.1rem;
+        float: right;
+        display: block;
+        color: #828282; }
+  .s_con .s_repeat-con-1 {
+    width: 100%; }
+    .s_con .s_repeat-con-1 li {
+      width: 100%;
+      overflow: hidden;
+      padding-top: 0.2rem;
+      padding-bottom: 0.05rem;
+      border-bottom: 0.03rem #F0F0F0 solid;
+      background: white; }
+      .s_con .s_repeat-con-1 li img {
+        width: 100%; }
+      .s_con .s_repeat-con-1 li .s_p {
+        width: 50%;
+        height: 0.35rem;
+        float: left;
+        font-weight: 700;
+        text-align: center;
+        font-size: 0.12rem;
+        color: #2F2F2F; }
+      .s_con .s_repeat-con-1 li span {
+        width: 50%;
+        float: left;
+        height: 0.35rem;
+        text-align: center;
+        line-height: 0.35rem;
+        font-size: 0.13rem;
+        color: #848484; }
+  .s_con .s_repeat-con-2 {
+    width: 100%; }
+    .s_con .s_repeat-con-2 li {
+      width: 100%;
+      overflow: hidden;
+      padding-top: 0.1rem;
+      padding-bottom: 0.1rem;
+      border-bottom: 0.03rem #F0F0F0 solid;
+      background: white; }
+      .s_con .s_repeat-con-2 li .s_h2 {
+        width: 95%;
+        margin: 0 auto;
+        height: 0.3rem;
+        font-size: 0.19rem;
+        color: #FF7800; }
+      .s_con .s_repeat-con-2 li .s_text {
+        width: 95%;
+        margin: 0 auto;
+        font-size: 0.15rem;
+        line-height: 0.25rem;
+        color: #333333; }
+        .s_con .s_repeat-con-2 li .s_text img {
+          width: 100%; }
+
+.s_con {
+  width: 100%; }
+  .s_con .s_head-img {
+    width: 100%; }
+    .s_con .s_head-img img {
+      width: 100%; }
+  .s_con .s_head-nav {
+    margin-top: -0.04rem;
+    width: 100%;
+    height: 0.45rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.01rem solid #FF7800;
+    background: #fff; }
+    .s_con .s_head-nav a {
+      display: block;
+      width: 100%;
+      color: #000;
+      text-align: center;
+      line-height: 0.45rem;
+      font-size: 0.2rem;
+      text-decoration: none;
+      animation: h-head 0.2s linear; }
+    .s_con .s_head-nav .router-link-active {
+      background: #FF7800;
+      color: #fff;
+      animation: h-show 0.2s linear; }
+    .s_con .s_head-nav .s-l {
+      border-top-right-radius: 0.05rem; }
+    .s_con .s_head-nav .s-r {
+      border-top-left-radius: 0.05rem; }
+  .s_con .s_co {
+    width: 100%; }
+    .s_con .s_co .s_conte {
+      width: 100%; }
+      .s_con .s_co .s_conte .tiao {
+        width: 100%;
+        padding: 0.2rem 0.1rem 0.3rem;
+        display: flex;
+        border-bottom: 0.05rem solid #F0F0F0;
+        justify-content: space-around; }
+        .s_con .s_co .s_conte .tiao .s_tu {
+          width: 25%; }
+          .s_con .s_co .s_conte .tiao .s_tu img {
+            width: 50%;
+            display: block;
+            margin: 0 auto; }
+          .s_con .s_co .s_conte .tiao .s_tu p {
+            margin-top: 0.02rem;
+            width: 100%;
+            height: 0.3rem;
+            text-align: center;
+            line-height: 0.3rem;
+            color: #9D9D9D; }
+          .s_con .s_co .s_conte .tiao .s_tu .hei {
+            margin-top: 0.05rem; }
+        .s_con .s_co .s_conte .tiao .s_rou {
+          width: 60%;
+          position: relative; }
+          .s_con .s_co .s_conte .tiao .s_rou .p_1 {
+            width: 80%;
+            font-size: 0.18rem; }
+            .s_con .s_co .s_conte .tiao .s_rou .p_1 img {
+              width: 7%;
+              margin-right: 0.05rem; }
+          .s_con .s_co .s_conte .tiao .s_rou .p_2 {
+            width: 100%;
+            position: absolute;
+            top: 44%;
+            margin-top: 0.4rem;
+            color: #9D9D9D; }
+            .s_con .s_co .s_conte .tiao .s_rou .p_2 .p_2_1 {
+              margin-left: 0.1rem;
+              float: left;
+              font-size: 0.15rem; }
+              .s_con .s_co .s_conte .tiao .s_rou .p_2 .p_2_1 i {
+                margin-right: 0.04rem; }
+            .s_con .s_co .s_conte .tiao .s_rou .p_2 .p_2_2 {
+              margin-right: 0.3rem;
+              float: right;
+              font-size: 0.15rem; }
+              .s_con .s_co .s_conte .tiao .s_rou .p_2 .p_2_2 i {
+                margin-right: 0.04rem; }
+
+.s-banner {
+  width: 100%;
+  position: absolute;
+  top: 0.5rem;
+  z-index: 1; }
+  .s-banner a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none; }
+    .s-banner a img {
+      width: 100%; }

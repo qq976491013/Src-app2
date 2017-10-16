@@ -1,0 +1,42 @@
+{
+  "goods": [
+    {
+      "imgSrc": "./img/h-img/z3_1.png",
+      "title": "山不在高",
+      "p": "有仙则名",
+      "p2": "史如川 男"
+    },
+    {
+      "imgSrc": "./img/h-img/y3_2.png",
+      "title": "水不在深",
+      "p": "有龙则灵",
+      "p2": "河北 邯郸"
+    },
+    {
+      "imgSrc": "./img/h-img/z3_3.jpg",
+      "title": "斯是陋室",
+      "p": "惟吾德馨",
+      "p2": "联系电话13126906254"
+    }
+  ],
+
+  "goods1": [{
+      "imgSrc": "./img/h-img/y01.png",
+      "title": "精通HTML5",
+      "p": "布局排版",
+      "p2": "超文本标记语言"
+    },
+    {
+      "imgSrc": "./img/h-img/k1.jpg",
+      "title": "掌握CSS3",
+      "p": "珍爱程序猿，远离IE678",
+      "p2": "层叠样式表"
+    },
+    {
+      "imgSrc": "./img/h-img/k2.png",
+      "title": "掌握JavaScript",
+      "p": "JQ框架少不了",
+      "p2": "动态脚本语言"
+    }
+  ]
+}
