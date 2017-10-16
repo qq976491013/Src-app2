@@ -186,11 +186,6 @@ var s_guanyu = Vue.extend({
         "text4": "2017-10-9"
       }]
     }
-  },
-  created: function() {
-    this.$http.get("./data/s.json").then(function(data) {
-      this.shu = JSON.parse(data.body)
-    })
   }
 })
 //配置路由
