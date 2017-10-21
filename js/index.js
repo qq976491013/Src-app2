@@ -151,7 +151,7 @@ var s_pingao = Vue.extend({
         {
           "src": "./img/s_img/logo.jpg",
           "text": "北京古羌科技有限公司任前端工程师",
-          "text2": "2015-02到2017-01"
+          "text2": "2015-02到2017-03"
         }
       ]
     }
